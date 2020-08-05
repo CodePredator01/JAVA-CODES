@@ -1,0 +1,56 @@
+File template variables﻿
+------------------------------------------------------------------
+
+A file template can contain variables, which are replaced by their values when the template is applied. A variable is a string that starts with a dollar sign $ followed by the variable name. The variable name may optionally be enclosed in curly braces. For example: $MyVariable and ${MyVariable} are different notations of the same variable.
+Predefined template variables﻿
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The following predefined variables can be used in file templates:
+------------------------------------------------------------------
+Variable	              Description
+------------------------------------------------------------------
+${DATE}	                  Current system date
+${DAY}	                  Current day of the month
+${DS}	                  Dollar sign $. This variable is used to escape the dollar character, so that it is not treated as a prefix of a template variable.
+${FILE_NAME}	          Name of the new PHP file (if the PHP plugin is enabled)
+${HOUR}	                  Current hour
+${MINUTE}	              Current minute
+${MONTH}	              Current month
+${MONTH_NAME_FULL}	      Full name of the current month (January, February, and so on)
+${MONTH_NAME_SHORT}       First three letters of the current month name (Jan, Feb, and so on)
+${NAME}	                  Name of the new entity (file, class, interface, and so on)
+${ORGANIZATION_NAME}	  Name of your organization specified in the project settings (Ctrl+Alt+Shift+S)
+${PACKAGE_NAME}	          Name of the target package where the new class or interface file is created
+${PRODUCT_NAME}	          Name of the IDE (for example, IntelliJ IDEA)
+${PROJECT_NAME}	          Name of the current project
+${TIME}	                  Current system time
+${USER}	                  Login name of the current user
+${YEAR}	                  Current year
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+IntelliJ IDEA provides a set of additional variables for PHP include templates, which are used to define reusable pieces of code, such as file headers and PHPDoc comments).
+
+The following additional predefined variables can be used in PHP include templates:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Variable	        Description
+----------------------------------
+${CARET}	        Caret position after you finish editing the variables. Applied only when a PHPDoc comment is generated and inserted during file creation. 
+                    When a PHPDoc comment is created through Code | Generate | PHPDoc block, multiple selection of functions or methods is available.Documentation comments in this
+                    case can be created for several classes, functions, methods, or fields, so the ${CARET} variable is ignored.
+${CLASS_NAME}	    Name of the class where the field or method to generate the PHPDoc comment for is defined
+${NAME}	            Name of the class, field, or function (method) for which the PHPDoc comment will be generated
+${NAMESPACE}	    Fully qualified name (without a leading slash) of the class or field namespace
+${PARAM_DOC}	    Documentation comment for parameters. Evaluates to a set of @param type name lines. If the function to generate comments for does not contain any parameters, evaluates to an empty string.
+${STATIC}	        Is replaced by the static keyword if the function (method) or field to generate the PHPDoc comment for is static. Otherwise evaluates to an empty string.
+${THROWS_DOC}	    Documentation comment for exceptions. Evaluates to a set of @throws type lines. If the function to generate comments for does not throw any exceptions, evaluates to an empty string.
+${TYPE_HINT}	    Return value of the function (method) to generate the PHPDoc comment for. If the return type cannot be detected through static analysis of the function (method), evaluates to void.
+---------------------------------
+Custom template variables﻿
+
+Besides predefined template variables, it is possible to specify custom variables. If necessary, you can define the values of custom variables right in the template using the #set directive.
+
+For example, if you want to use your full name instead of your login name defined through the predefined variable ${USER}, use the following construct:
+
+#set( $MyName = "John Smith" )
+
+Copied!
+
+If the value of a variable is not defined in the template, IntelliJ IDEA will ask you to specify it when the template is applied.

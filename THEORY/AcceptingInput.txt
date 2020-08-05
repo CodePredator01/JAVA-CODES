@@ -1,0 +1,37 @@
+Accepting Input from End-User (Client, Customer)
+
+1. Keyboard (Hardware devices)  -----> In  Syllabous
+2. File (Compiled values in a format)
+3. Database
+4. Internet ----> In Syllabous
+---------------------------------------------------------------------
+
+1. Keyboard  (take input)
+   - Using Scanner class
+   - via command line argument
+   
+(i) Using Scanner class
+    -> import the Scanner class from the 'java.util.package'
+	-> create an object of the Scanner class
+	-> Use the Scanner class method
+	-> Close the Scanner object
+------------------------
+PRIMITIVE DATATYPE -:
+------------------------
+* byte   -> nextByte()
+* short  -> nextShort()
+* int    -> nextInt()
+* float  -> nextFloat()
+* long   -> nextLong()
+* double -> nextDouble()
+* boolean-> nextBoolean()
+
+NOTE: There is no direct method for 'char' input.
+      nextLine() -> for String input
+	  EX. -->
+	  name = "CodePredator01"   --> name[0] = 'd'  (for char)
+	          0123456789....    
+			  
+			  
+			  
+format ->  char name = scanner.nextLine().charAt(0);
