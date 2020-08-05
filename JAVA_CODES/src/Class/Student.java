@@ -8,13 +8,5 @@
 package Class;
 
 public class Student {
-    int studentRollNumber;
-    String studentName;
-    float studentMarks;
 
-    void study() {
-    }
-
-    void takeExam() {
-    }
 }
