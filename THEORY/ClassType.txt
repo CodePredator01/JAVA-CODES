@@ -1,0 +1,16 @@
+// 1. Definition Class
+class Student {
+    int studentRollNumber;
+	String studentName;
+	void study() {}
+	void takeExam() {}
+}
+
+// NOTE: main defines that giving class is Execution File or a Definition class
+
+// 2. Execution Class 
+class Main{
+	public static void main(String[] args) {
+		   
+		}
+}
