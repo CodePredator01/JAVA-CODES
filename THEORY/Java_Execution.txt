@@ -1,0 +1,14 @@
+Source Code [.java]
+Give it to -> Java Compiler (javac)
+Intermidiate Code [.class]
+Give it to -> JRE (
+                    JVM
+                    Windows
+                    Linux
+                    MacOS
+                    Solaris 
+                    Unix 
+                   )
+Native Machine Code (Binaries)
+For Compile -: javac class_name.java
+For Execution -: class_name.java
