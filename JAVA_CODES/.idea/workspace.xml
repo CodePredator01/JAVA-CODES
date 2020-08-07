@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83b700ba-bfb9-42c8-b459-ce10483d1b81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InputMethod/InputScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../THEORY/AcceptingInput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../THEORY/FileTemplates.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataTypes/DataTypesInJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_CODES/Class/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_CODES/Class/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_CODES/Class/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_CODES/Class/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA_CODES/InputMethod/InputScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_CODES/InputMethod/InputScanner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../THEORY/AcceptingInput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../THEORY/ClassType.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../THEORY/FileTemplates.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../THEORY/Java_Execution.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../THEORY/VCS.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.InputScanner">
+  <component name="RunManager" selected="Application.DataTypesInJava">
+    <configuration name="DataTypesInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataTypesInJava" />
+      <module name="JAVA_CODES" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InputScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InputMethod.InputScanner" />
       <module name="JAVA_CODES" />
@@ -75,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataTypesInJava" />
         <item itemvalue="Application.InputScanner" />
         <item itemvalue="Application.Zoo" />
       </list>
@@ -90,7 +100,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596645408906</updated>
-      <workItem from="1596645410616" duration="7782000" />
+      <workItem from="1596645410616" duration="8195000" />
+      <workItem from="1596783459226" duration="2168000" />
     </task>
     <task id="LOCAL-00001" summary="add Student.java for define Student object">
       <created>1596645719190</created>
@@ -120,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596648603265</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Input method by using scanner !">
+      <created>1596654253029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596654253029</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,44 +148,45 @@
     <MESSAGE value="add Student.java for define Student object" />
     <MESSAGE value="add methods in Student.java file" />
     <MESSAGE value="Polymorphism !" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polymorphism !" />
+    <MESSAGE value="Input method by using scanner !" />
+    <option name="LAST_COMMIT_MESSAGE" value="Input method by using scanner !" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="777" y="0" key="CommitChangelistDialog2" timestamp="1596648601868">
+    <state x="777" y="0" key="CommitChangelistDialog2" timestamp="1596654251113">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="777" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596648601868" />
+    <state x="777" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596654251113" />
     <state x="1013" y="314" key="Github.Dialog.Accounts.Choose" timestamp="1596648619221">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1013" y="314" key="Github.Dialog.Accounts.Choose/0.0.1536.824@0.0.1536.824" timestamp="1596648619221" />
-    <state width="726" height="208" key="GridCell.Tab.0.bottom" timestamp="1596653954543">
+    <state width="726" height="208" key="GridCell.Tab.0.bottom" timestamp="1596793081829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="726" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596653954543" />
-    <state width="726" height="208" key="GridCell.Tab.0.center" timestamp="1596653954543">
+    <state width="726" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596793081829" />
+    <state width="726" height="208" key="GridCell.Tab.0.center" timestamp="1596793081829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="726" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596653954543" />
-    <state width="726" height="208" key="GridCell.Tab.0.left" timestamp="1596653954543">
+    <state width="726" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596793081829" />
+    <state width="726" height="208" key="GridCell.Tab.0.left" timestamp="1596793081829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="726" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596653954543" />
-    <state width="726" height="208" key="GridCell.Tab.0.right" timestamp="1596653954543">
+    <state width="726" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596793081829" />
+    <state width="726" height="208" key="GridCell.Tab.0.right" timestamp="1596793081829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="726" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596653954543" />
-    <state x="622" y="57" width="914" height="709" key="SettingsEditor" timestamp="1596651322920">
+    <state width="726" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596793081829" />
+    <state x="622" y="57" width="914" height="709" key="SettingsEditor" timestamp="1596791582542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="622" y="57" width="914" height="709" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596651322920" />
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596648607679">
+    <state x="622" y="57" width="914" height="709" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596791582542" />
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596654257713">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596648607679" />
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596654257713" />
     <state x="819" y="286" width="609" height="280" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1596647691711">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

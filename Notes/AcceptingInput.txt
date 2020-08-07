@@ -33,5 +33,7 @@ NOTE: There is no direct method for 'char' input.
 	          0123456789....    
 			  
 			  
-			  
 format ->  char name = scanner.nextLine().charAt(0);
+
+NOTE: In JAVA for null character we use
+         null;    or   '\0';
