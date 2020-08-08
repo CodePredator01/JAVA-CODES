@@ -10,8 +10,8 @@ public class InputScanner {
         // <ClassName> <objectName> = new <ClassName>();
         // Car          totalNano   = new Car        ();
         Scanner scanner = new Scanner(System.in);
-       /* int number;        declaration
-          int number1 = 4;     initialization
+       /* int number;       // declaration
+          int number1 = 4;    // initialization
         byte byteVariable = scanner.nextByte();
         short shortVariable = scanner.nextShort();
         int number = scanner.nextInt();  // Step 3: use the method

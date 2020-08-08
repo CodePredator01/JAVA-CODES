@@ -4,7 +4,7 @@
  * Date: 07-08-2020
  * Time: 02:43 PM
  */
-package.DataTypes;
+package DataTypes;
 
 public class DataTypesInJava {
     public static void main(String[] args) {
