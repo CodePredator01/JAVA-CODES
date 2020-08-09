@@ -7,7 +7,7 @@
 
 // Main class for take input from End - user at run time
 
-package InputMethod;
+package InputMethod.Scanner;
 
 import java.util.Scanner;
 

@@ -8,8 +8,7 @@
 
 //  This class for print Persons details as a result
 
-
-package InputMethod;
+package InputMethod.Scanner;
 
 class Person {
     public static void printData(String firstName, String lastName, int age, double height, double weight) {

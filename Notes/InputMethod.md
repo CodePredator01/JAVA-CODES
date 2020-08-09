@@ -8,6 +8,16 @@
  
  ## Keyboard:
  
- 1. Using Scanner Class
+ 1. Using Scanner Class        (import java.util.Scanner;)
  2. Via command line argument
    
+### Command line Argument
+ 
+ (Input by console)
+- goto run button 
+- then goto edit configure
+- then program argument
+
+- When we define a function we give argument is called parameter
+
+String[] args : string array

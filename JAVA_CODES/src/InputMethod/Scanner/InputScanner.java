@@ -1,4 +1,4 @@
-package InputMethod;
+package InputMethod.Scanner;
 
 // Step 1: import the Scanner class from the java.util package
 
