@@ -1,4 +1,4 @@
-// 1. Definition Class
+// 1. Definition pillersOfJava
 class Student {
     int studentRollNumber;
 	String studentName;
@@ -8,7 +8,7 @@ class Student {
 
 // NOTE: main defines that giving class is Execution File or a Definition class
 
-// 2. Execution Class 
+// 2. Execution pillersOfJava
 class Main{
 	public static void main(String[] args) {
 		   

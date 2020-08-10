@@ -24,8 +24,8 @@ Structure Of JAVA Program -:
 1. Author Info
 2. Package Info
 3. Import Statement
-4. Class Name
-5. Class Body {}
+4. pillersOfJava Name
+5. pillersOfJava Body {}
 
 
 NOTE: Camel-Case  -: priyanshuVishwakarma
@@ -42,7 +42,7 @@ Range : [-128,o,127]
 
 NOTE: ASCII - American Standard Code for Information Interchange
 
-Eight DataTypes :  
+Eight dataTypes :  
 4 Numeric: byte, shore, int, long
 2 Floating: float, double
 1 Character: char
