@@ -27,15 +27,15 @@ public class LabTask1B {
         System.out.println(phoneNo + " is a fourth primitive data-type no.");
 
         float firstSemCpi = 7.77f;
-        System.out.println(firstSemCpi + " is a five primitive data-type no.");
+        System.out.println(firstSemCpi + " is a fifth primitive data-type no.");
 
         double firstSemSpi = 7.77;
-        System.out.println(firstSemSpi + " is a six primitive data-type no.");
+        System.out.println(firstSemSpi + " is a sixth primitive data-type no.");
 
         char gender = 'P';
-        System.out.println(gender + " is a seven primitive data-type character.");
+        System.out.println(gender + " is a seventh primitive data-type character.");
 
         boolean areYouMale = true;
-        System.out.println(areYouMale + " is a eight primitive data-type no.");
+        System.out.println(areYouMale + " is a eighth primitive data-type no.");
     }
 }
