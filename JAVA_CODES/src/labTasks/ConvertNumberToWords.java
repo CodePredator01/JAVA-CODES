@@ -13,15 +13,15 @@ import java.util.Scanner;
 
 public class ConvertNumberToWords {
     public static void main(String[] args) {
-        String str = new String("");
+        String str = "";
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter number (1-999): ");
         String input = scanner.nextLine();
         scanner.close();
-        String placevalue[] = {"hundred"};
-        String digits[] = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
+        String[] placevalue = {"hundred"};
+        String[] digits = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
 
-        String multiplesOfTen[] = {"twenty", "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninety"};
+        String[] multiplesOfTen = {"twenty", "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninety"};
 
 
         if (input.length() == 1) {
