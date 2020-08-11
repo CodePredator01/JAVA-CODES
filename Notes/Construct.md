@@ -46,17 +46,17 @@ where it can be accessed.
 
 #### Local VAriable Type Inference: 
 
-** Staticaly-Typed Language: (data type must be defined) **
+**Staticaly-Typed Language: (data type must be defined**
 ->c, c++, Java
 - int number = 4;
 
-** Dynamically-Typed Language: (data type can be inferred)**
+**Dynamically-Typed Language: (data type can be inferred)**
 -> python
 - number = 4;
 
 
 ## Reference Type in Java -> Infinity 
 
--**Data: ** values related to any object
--**Type: ** info about something and some operations on it
+-**Data:** values related to any object
+-**Type:** info about something and some operations on it
             - int -> [-x to x-1] (data), +,-,*,/
