@@ -11,8 +11,6 @@
 package labTasks;
 
 public class LabTask2D {
-    static int myAge;
-    static String name;
 
     // This is a Static Method
     static void myAge(String name, int age) {
@@ -21,9 +19,9 @@ public class LabTask2D {
     }
 
     public static void main(String[] args) {
-        myAge("Priyanshu Vishwakarma", 19);
+        LabTask2D.myAge("Priyanshu Vishwakarma", 19); // Static access by class
         LabTask2D obj = new LabTask2D();
-        obj.myRollNo();
+        obj.myRollNo(); // Non-Static access by object
     }
 
     // This is a non-static variable
