@@ -6,7 +6,7 @@
  * File: LabTask3.java
  * */
 
-// Task2A : Create a program in java that prints the follwing table.
+// Task2A : Create a program in java that prints the range table.
 
 package labTasks;
 
