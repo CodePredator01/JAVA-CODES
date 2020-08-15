@@ -15,7 +15,7 @@ public class NestedForLoop {
     private static final int ZERO = 0;
 
     public static void main(String[] args) {
-        // 20 nested for loops working together, see if you can add more!
+        // 20 nested for course.loops working together, see if you can add more!
         for (int i = ZERO; i < TEN; i++) {
             for (int i1 = ZERO; i1 < TEN; i1++) {
                 for (int i2 = ZERO; i2 < TEN; i2++) {

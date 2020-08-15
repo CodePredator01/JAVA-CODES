@@ -8,7 +8,7 @@
  
  ## Keyboard:
  
- 1. Using Scanner pillersOfJava        (import java.util.Scanner;)
+ 1. Using Scanner course.pillersOfJava        (import java.util.Scanner;)
  2. Via command line argument
    
 ### Command line Argument

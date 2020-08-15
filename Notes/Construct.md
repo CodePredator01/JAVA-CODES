@@ -21,7 +21,7 @@
 - Ternary Operator - 3 operands
 - ?: - Ternary Operator ---> when we want to return values
 
-# Scope of a Variable:
+# course.Scope of a Variable:
 The scope of a variable is defined as the area or region of a program 
 where it can be accessed. 
 * local scope *

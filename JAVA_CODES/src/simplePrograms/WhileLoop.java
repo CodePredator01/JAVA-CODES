@@ -25,3 +25,5 @@ public class WhileLoop {
         }
     }
 }
+// sentinels <- entities at the end of something (list, line, collection)
+// sentinel logic

@@ -1,0 +1,47 @@
+/*
+ * Created by IntelliJ IDEA.
+ * User: CodePredator01
+ * Date: 10-08-2020
+ * Time: 03:51 PM
+ * File: InputSteps.java
+ * */ // 1. author information
+
+// 2. package information
+package course.inputMethod.scanner;
+
+
+//  Step 1: import the Scanner class from the java.util package.
+
+import java.util.Scanner;
+
+public class InputSteps {
+    public static void main(String[] args) {
+        // Step 2: create an object of the Scanner class
+        // use this formula to create an object of any class in Java
+        // <ClassName> <objectName> = new <ClassName>();
+        Scanner scanner = new Scanner(System.in);
+        // note carefully, where the capital S is used in Scanner,
+        // it means the class is used. The scanner with small s is the object.
+
+        // Step 3: take input from the end-user and store it in a variable
+        // first, print a message on the console to let the end-user know
+        // what kind of input value the program is expecting
+        System.out.println("Please enter an integer value: ");
+        int number = scanner.nextInt(); // step 3
+        // Here, we are using the course.methods of the Scanner class, with the object (scanner)
+        // of the Scanner class.
+        // There are course.methods for all data types except 1 (character)
+        // byte: nextByte()
+        // short: nextShort()
+        // int: nextInt()
+        // long: nextLong()
+        // float: nextFloat()
+        // double: nextDouble()
+        // boolean: nextBoolean()
+        // for character we use the following code
+        // nextLine().charAt(0)
+
+        // Step 4: close the scanner object
+        scanner.close();
+    }
+}
