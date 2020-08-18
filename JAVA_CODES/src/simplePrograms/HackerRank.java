@@ -18,7 +18,10 @@ public class HackerRank {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
-        System.out.println(str.replace('a', 'b'));
+        String strr = scanner.nextLine();
+        String s = strr.replace(" ", "");
+        String st = str.replace(" ", "");
+        System.out.println(st.equals(s));
     }
 }
 
