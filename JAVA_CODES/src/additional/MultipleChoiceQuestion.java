@@ -30,11 +30,12 @@ public class MultipleChoiceQuestion {
         Scanner scannerObject = new Scanner(System.in);
         System.out.print("\n" + "Please submit your option: ");
         String optionForAnswer = scannerObject.nextLine();
-        if (optionForAnswer.endsWith("d") || optionForAnswer.endsWith("D") || optionForAnswer.endsWith("(D)") || optionForAnswer.endsWith("iv") || optionForAnswer.endsWith("Four") || optionForAnswer.endsWith("four") || optionForAnswer.endsWith("IV") || optionForAnswer.endsWith("FOUR") || optionForAnswer.endsWith("4")) {
+        if (optionForAnswer.equals("d") || optionForAnswer.equals("D") || optionForAnswer.equals("(D)") || optionForAnswer.equals("iv") || optionForAnswer.equals("Four") || optionForAnswer.equals("four") || optionForAnswer.equals("IV") || optionForAnswer.equals("FOUR") || optionForAnswer.equals("4")) {
             System.out.println("Congratulation, Your answer is correct.");
         } else {
-            System.out.println("Entered Option is incorrect." + "\n" + "Correct Option is: (D) James Gosling");
+            System.err.println("Entered Option is incorrect.");
+            System.out.println();
+            System.out.println("Correct Option is: (D) James Gosling");
         }
-
     }
 }
