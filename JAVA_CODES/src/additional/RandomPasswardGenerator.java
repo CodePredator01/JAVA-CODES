@@ -1,21 +1,17 @@
 /*
  * Created by IntelliJ IDEA.
  * User: Priyanshu (CodePredator01)
- * Date: 13-08-2020
- * Time: 04:37 PM
- * File: HackerRank.java
+ * Date: 19-08-2020
+ * Time: 05:20 PM
+ * File: RandomPasswardGenerator.java
  * */
 
-
-/*
-    another comment
-*/
-package simplePrograms;
+package additional;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class HackerRank {
+public class RandomPasswardGenerator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int upperCaseLetter = scanner.nextInt();
