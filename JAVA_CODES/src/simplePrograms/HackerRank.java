@@ -12,34 +12,20 @@
 */
 package simplePrograms;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class HackerRank {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int upperCaseLetter = scanner.nextInt();
-        int lowerCaseLetter = scanner.nextInt();
-        int digits = scanner.nextInt();
-        int sizeOfPassward = scanner.nextInt();
-        int afterRequirmentLeftSoace = sizeOfPassward - (upperCaseLetter + lowerCaseLetter + digits);
-        String upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        String lowerCaseLetters = "abcdefghilklmnopqrstuvwxyz";
-        String numbersList = "0123456789";
-        String createdPassward = "";
-        Random randomLetter = new Random();
-        for (int upperCase = 1; upperCase <= upperCaseLetter; upperCase++) {
-            createdPassward += upperCaseLetters.charAt(randomLetter.nextInt(upperCaseLetters.length()));
+        int breadth = scanner.nextInt();
+        int height = scanner.nextInt();
+        scanner.close();
+
+        if (breadth > 0 && height > 0) {
+            int parallelogram = breadth * height;
+            System.out.println(parallelogram);
+        } else {
+            System.out.println("java.lang.Exception: Breadth and height must be positive");
         }
-        for (int lowerCase = 1; lowerCase <= lowerCaseLetter; lowerCase++) {
-            createdPassward += lowerCaseLetters.charAt(randomLetter.nextInt(lowerCaseLetters.length()));
-        }
-        for (int digit = 1; digit <= digits; digit++) {
-            createdPassward += numbersList.charAt(randomLetter.nextInt(numbersList.length()));
-        }
-        for (int lastSpaces = 1; lastSpaces <= afterRequirmentLeftSoace; lastSpaces++) {
-            createdPassward += upperCaseLetters.charAt(randomLetter.nextInt(upperCaseLetters.length()));
-        }
-        System.out.println(createdPassward);
     }
 }
